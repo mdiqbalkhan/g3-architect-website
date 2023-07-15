@@ -95,3 +95,60 @@ nav li a{
         flex-direction: column;
     }
 }
+
+
+/* team section area start  */
+
+main{
+    
+    max-width: 1440px;
+    margin-right: 0 auto; 
+    
+    
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-left: 70px;
+}
+
+.team-content{
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.quick{
+    color:  #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+
+}
+
+.our{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+.our-1{
+    color: #FF900E;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+.team-description{
+    color:  #727272;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
